@@ -1,4 +1,4 @@
-package hello.login.domain.member;
+package hello.login.web.member;
 
 import javax.validation.Valid;
 
@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import hello.login.domain.member.Member;
+import hello.login.domain.member.MemberRepository;
 import lombok.RequiredArgsConstructor;
 
 @Controller
